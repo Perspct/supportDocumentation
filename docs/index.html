@@ -12,8 +12,16 @@
   <div id="app"></div>
   <script>
     window.$docsify = {
-      name: '',
-      repo: ''
+      name: 'Zudello Support Documentation',
+      repo: 'Perspct/supportDocumentation',
+      auto2top: true,
+      logo: 'https://zudello.com/images/zudello-logo.png',
+      themeColor: '#85149b',
+      formatUpdated: '{MM}/{DD} {HH}:{mm}',
+
+      formatUpdated: function(time) {
+        return time;
+      },
     }
   </script>
   <script src="//cdn.jsdelivr.net/npm/docsify/lib/docsify.min.js"></script>
